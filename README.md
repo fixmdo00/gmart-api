@@ -6,7 +6,7 @@ Request :
 - Method = POST
 - endpoint = api/product/create
 - body
-'''json
+```json
 {
   "id" : "int"
   "nama" : "string"
@@ -15,8 +15,9 @@ Request :
   "foto" : "foto"
   "jumlah" : "int"
 }
-'''
+```
 
+Respon :
 ```json
 {
   "id" : "int"
