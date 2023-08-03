@@ -1,4 +1,4 @@
-![image](https://github.com/fixmdo00/gmart-api/assets/100917455/f947a293-fc7e-425a-b5e3-071f9a9b4951)# gmart-api
+# gmart-api
 
 
 # Create Product
@@ -51,6 +51,28 @@ Respon :
 API untuk mengambil data list produk
 Request :
 - Method : GET
-- - Endpoint : api/product/get_list{page}{item_per_age}
+- Endpoint : api/product/get_list{page}{item_per_age}
+
+Respon :
+```json
+{
+  {
+    "id" : "int"
+    "nama" : "string"
+    "harga" : "int"
+    "desk" : "string"
+    "foto" : "foto"
+    "jumlah" : "int"
+  },
+  {
+    "id" : "int"
+    "nama" : "string"
+    "harga" : "int"
+    "desk" : "string"
+    "foto" : "foto"
+    "jumlah" : "int"
+  }
+}
+```
 
 
