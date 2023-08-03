@@ -16,3 +16,14 @@ Request :
   "jumlah" : "int"
 }
 '''
+
+```json
+{
+  "id" : "int"
+  "nama" : "string"
+  "harga" : "int"
+  "desk" : "string"
+  "foto" : "foto"
+  "jumlah" : "int"
+}
+```
